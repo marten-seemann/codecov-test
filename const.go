@@ -5,6 +5,10 @@ import (
 	"fmt"
 )
 
+func sayBye() {
+	fmt.Println("bye")
+}
+
 type Error struct {
 	msg                string
 	timeout, temporary bool
